@@ -82,7 +82,7 @@ namespace Assignment01
 
         static void Main(string[] args)
         {
-            Nav m = new Nav();
+            Rectangle m = new Rectangle();
             bool valid_initial_Selection = false;
             string initial_Value;
             int choose;
@@ -106,7 +106,7 @@ namespace Assignment01
                     int width = 6;
 
                     Console.WriteLine($"You are selected length = {length} and width = {width}.\n");
-                    Nav default_inputs = new Nav(length, width);
+                    Rectangle default_inputs = new Rectangle(length, width);
                     m = default_inputs;
 
                 }
@@ -121,7 +121,7 @@ namespace Assignment01
                     width = authenticate_User_Input("width");
 
                     Console.WriteLine("You provided Length = {0} and Width = {1}.\n", length, width);
-                    Nav default_inputs = new Nav(length, width);
+                    Rectangle default_inputs = new Rectangle(length, width);
                     m = default_inputs;
                 }
             }

@@ -12,16 +12,16 @@ namespace Assignment01test
     public class Class1
     {
         [Test]
-        public void GetLength_Input2_Returns2()
+        public void GetLength_Input3_Returns3()
         {
             //Arrange
-            int length = 2;
+            int length = 3;
             int width = 1;
 
             //Tesing the GetLength() Method (Test Case: 1)
             int expectedResult = length;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.Getlength();
@@ -31,16 +31,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void GetLength_Input12_Returns12()
+        public void GetLength_Input21_Returns21()
         {
             //Arrange
-            int length = 12;
+            int length = 21;
             int width = 1;
 
             //Tesing the GetLength() Method (Test Case: 1)
             int expectedResult = length;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.Getlength();
@@ -59,7 +59,7 @@ namespace Assignment01test
             //Tesing the GetLength() Method (Test Case: 3)
             int expectedResult = length;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.Getlength();
@@ -69,16 +69,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void SetLength_Input10_Returns10()
+        public void SetLength_Input30_Returns30()
         {
             //Arrange
-            int length = 10;
+            int length = 30;
             int width = 1;
 
             //Tesing the SetLength() Method (Test Case: 1)
             int expectedResult = length;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.SetLength(length);
@@ -97,7 +97,7 @@ namespace Assignment01test
             //Tesing the SetLength() Method (Test Case: 2)
             int expectedResult = length;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.SetLength(length);
@@ -116,7 +116,7 @@ namespace Assignment01test
             //Tesing the SetLength() Method (Test Case: 3)
             int expectedResult = length;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.SetLength(length);
@@ -128,16 +128,16 @@ namespace Assignment01test
 
 
         [Test]
-        public void GetWidth_Input5_Returns5()
+        public void GetWidth_Input8_Returns8()
         {
             //Arrange
             int length = 1;
-            int width = 5;
+            int width = 8;
 
             //Tesing the GetWidth() Method (Test Case: 1)
             int expectedResult = width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetWidth();
@@ -147,16 +147,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void GetWidth_Input15_Returns15()
+        public void GetWidth_Input55_Returns55()
         {
             //Arrange
             int length = 1;
-            int width = 15;
+            int width = 55;
 
             //Tesing the GetWidth() Method (Test Case: 2)
             int expectedResult = width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetWidth();
@@ -166,16 +166,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void GetWidth_Input50_Returns50()
+        public void GetWidth_Input40_Returns40()
         {
             //Arrange
             int length = 1;
-            int width = 50;
+            int width = 40;
 
             //Tesing the GetWidth() Method (Test Case: 3)
             int expectedResult = width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetWidth();
@@ -185,16 +185,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void SetWidth_Input13_Returns13()
+        public void SetWidth_Input73_Returns73()
         {
             //Arrange
             int length = 1;
-            int width = 13;
+            int width = 73;
 
             //Tesing the SetWidth() Method (Test Case: 1)
             int expectedResult = width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.SetWidth(width);
@@ -204,16 +204,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void SetWidth_Input33_Returns33()
+        public void SetWidth_Input66_Returns66()
         {
             //Arrange
             int length = 1;
-            int width = 33;
+            int width = 66;
 
             //Tesing the SetWidth() Method (Test Case: 2)
             int expectedResult = width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.SetWidth(width);
@@ -232,7 +232,7 @@ namespace Assignment01test
             //Tesing the SetWidth() Method (Test Case: 3)
             int expectedResult = width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.SetWidth(width);
@@ -242,16 +242,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void GetPerimeter_Input2and3_Returns10()
+        public void GetPerimeter_Input7and3_Returns20()
         {
             //Arrange
-            int length = 2;
+            int length = 7;
             int width = 3;
 
             //Tesing the GetPerimeter() Method (Test Case: 1)
             int expectedResult = 2 * (length + width);
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetPerimeter();
@@ -270,7 +270,7 @@ namespace Assignment01test
             //Tesing the GetPerimeter() Method (Test Case: 2)
             int expectedResult = 2 * (length + width);
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetPerimeter();
@@ -280,16 +280,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void GetPerimeter_Input8and2_Returns20()
+        public void GetPerimeter_Input8and4_Returns24()
         {
             //Arrange
             int length = 8;
-            int width = 2;
+            int width = 4;
 
             //Tesing the GetPerimeter() Method (Test Case: 3)
             int expectedResult = 2 * (length + width);
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetPerimeter();
@@ -299,16 +299,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void GetArea_Input3and5_Returns15()
+        public void GetArea_Input4and5_Returns20()
         {
             //Arrange
-            int length = 3;
+            int length = 4;
             int width = 5;
 
             //Tesing the GetArea() Method (Test Case: 1)
             int expectedResult = length * width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetArea();
@@ -318,16 +318,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void GetArea_Input6and4_Returns24()
+        public void GetArea_Input6and7_Returns42()
         {
             //Arrange
             int length = 6;
-            int width = 4;
+            int width = 7;
 
             //Tesing the GetArea() Method (Test Case: 2)
             int expectedResult = length * width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetArea();
@@ -337,16 +337,16 @@ namespace Assignment01test
         }
 
         [Test]
-        public void GetArea_Input10and5_Returns50()
+        public void GetArea_Input15and10_Returns150()
         {
             //Arrange
-            int length = 10;
-            int width = 5;
+            int length = 15;
+            int width = 10;
 
             //Tesing the GetArea() Method (Test Case: 3)
             int expectedResult = length * width;
 
-            Nav test_Rectangle = new Nav(length, width);
+            Rectangle test_Rectangle = new Rectangle(length, width);
 
             //Act
             int actualResult = test_Rectangle.GetArea();
