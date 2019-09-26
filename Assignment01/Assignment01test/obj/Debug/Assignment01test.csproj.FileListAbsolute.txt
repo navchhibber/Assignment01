@@ -1,0 +1,12 @@
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\bin\Debug\Assignment01test.dll
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\bin\Debug\Assignment01test.pdb
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\bin\Debug\Assignment01.exe
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\bin\Debug\nunit.framework.dll
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\bin\Debug\Assignment01.pdb
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\bin\Debug\Assignment01.exe.config
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\bin\Debug\nunit.framework.xml
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\obj\Debug\Assignment01test.csprojAssemblyReference.cache
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\obj\Debug\Assignment01test.csproj.CoreCompileInputs.cache
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\obj\Debug\Assignment01test.csproj.CopyComplete
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\obj\Debug\Assignment01test.dll
+C:\Users\navjot\source\repos\Assignment01\Assignment01test\obj\Debug\Assignment01test.pdb

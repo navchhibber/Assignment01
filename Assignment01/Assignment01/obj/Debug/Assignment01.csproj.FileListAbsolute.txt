@@ -1,0 +1,10 @@
+C:\Users\navjot\source\repos\Assignment01\Assignment01\bin\Debug\Assignment01.exe.config
+C:\Users\navjot\source\repos\Assignment01\Assignment01\bin\Debug\Assignment01.exe
+C:\Users\navjot\source\repos\Assignment01\Assignment01\bin\Debug\Assignment01.pdb
+C:\Users\navjot\source\repos\Assignment01\Assignment01\obj\Debug\Assignment01.csprojAssemblyReference.cache
+C:\Users\navjot\source\repos\Assignment01\Assignment01\obj\Debug\Assignment01.csproj.CoreCompileInputs.cache
+C:\Users\navjot\source\repos\Assignment01\Assignment01\obj\Debug\Assignment01.exe
+C:\Users\navjot\source\repos\Assignment01\Assignment01\obj\Debug\Assignment01.pdb
+C:\Users\navjot\source\repos\Assignment01\Assignment01\bin\Debug\nunit.framework.dll
+C:\Users\navjot\source\repos\Assignment01\Assignment01\bin\Debug\nunit.framework.xml
+C:\Users\navjot\source\repos\Assignment01\Assignment01\obj\Debug\Assignment01.csproj.CopyComplete
